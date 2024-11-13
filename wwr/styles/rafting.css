@@ -1,0 +1,138 @@
+:root {
+    --primary-color: #5BC0EB;
+    --secondary-color: #989572;
+    --accent1-color: #9CFFD9;
+    --accent2-color: #0B3954;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--accent2-color); 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+h1, h2 {
+    color: var(--accent2-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem; 
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem; 
+    margin-bottom: 10px;
+}
+
+
+p {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.sociallinks a {
+    text-decoration: none; 
+}
+
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 400px; 
+    background-image: url('images/rafting.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    color: var(--accent1-color);
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hero article {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--accent1-color);
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.hero article img {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.hero article p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+
+section h2 {
+    color: var(--accent1-color);
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+section p {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.rafting-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.rafting-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+footer {
+    background-color: var(--accent2-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .sociallinks a {
+    margin: 0 10px;
+}
+
+footer .sociallinks img {
+    width: 30px;
+    height: 30px;
+}
