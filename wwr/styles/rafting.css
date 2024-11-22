@@ -147,7 +147,7 @@ section p {
     padding: 20px 0; 
 }
 
-.rafting-gallery figure {
+.rafting-item {
     width: 18%; 
     text-align: center;
     margin: 0;
@@ -159,7 +159,7 @@ section p {
     border-radius: 8px;
 }
 
-figcaption {
+.rafting-item figcaption {
     margin-top: 10px;
     font-weight: bold;
     color: var(--accent1-color);
@@ -180,10 +180,9 @@ footer .sociallinks img {
     width: 30px;
     height: 30px;
 }
-
 footer .sociallinks {
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     gap: 10px;
     margin-top: 10px;
 }
