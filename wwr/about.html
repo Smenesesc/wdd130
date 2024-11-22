@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Us - Rafting Adventures</title>
-        <meta name="description" content="Learn about Rafting Adventures and our passion for thrilling and safe rafting experiences. Meet our team and explore our history.">
-        <meta name="author" content="Santiago Meneses">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles/rafting.css"> 
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Rafting Adventures</title>
+    <meta name="description" content="Learn about Rafting Adventures and our passion for thrilling and safe rafting experiences. Meet our team and explore our history.">
+    <meta name="author" content="Santiago Meneses">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css"> 
+</head>
 <body>
 
-<header>
-    <img src="images/logo.jpg" alt="Rafting Adventures Logo" width="100"> <!-- Improved alt text -->
+<header class="header-grid">
+    <img src="images/logo.jpg" alt="Rafting Adventures Logo" width="100">
+    <h1>Rafting Adventures</h1>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="trips.html">Trips</a>
-        <a href="contact.html">Contact</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
 </header>
 
 <main>
     <div class="hero">
-        <img src="images/hero.webp" alt="hero-image" class="hero-image">  
         <h1>Rafting Adventures</h1>
         <article>
             <img src="images/happy-client.jpg" alt="Happy client enjoying rafting" class="client-image">
@@ -34,23 +36,45 @@
         </article>
     </div>
 
-    <section>
-        <h2>History</h2>
-        <p>We have been around the rafting industry for more than 30 years. We have been thrilling adventurers with safe and exciting rafting experiences for decades.</p>
+    <section class="history-section">
+        <div class="left-text">
+            <h2>Our History</h2>
+            <p>We have been around the rafting industry for more than 30 years. We have been thrilling adventurers with safe and exciting rafting experiences for decades.</p>
+        </div>
+        <div class="center-image">
+            <img src="images/history_image.webp" alt="Rafting adventure image">
+        </div>
+        <div class="right-text">
+            <h2>Our Mission</h2>
+            <p>Our mission is to provide unforgettable rafting experiences while ensuring the safety and well-being of our customers. Our team is passionate about adventure and the outdoors.</p>
+        </div>
     </section>
-
     <section>
         <h2>Adventure Awaits You!</h2>
-        <div class="rafting-images">
-            <img src="images/rafting1.jpg" alt="Rafting action 1" class="rafting-img">
-            <img src="images/rafting2.jpg" alt="Rafting action 2" class="rafting-img">
-            <img src="images/rafting3.jpg" alt="Rafting action 3" class="rafting-img">
-            <img src="images/rafting4.jpg" alt="Rafting action 4" class="rafting-img">
-            <img src="images/rafting5.jpg" alt="Rafting action 5" class="rafting-img">
+        <div class="rafting-gallery">
+            <figure>
+                <img src="images/rafting1.jpg" alt="Splashy Waters" class="rafting-img">
+                <figcaption>Splashy Waters</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting2.jpg" alt="Rocky Waters" class="rafting-img">
+                <figcaption>Rocky Waters</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting3.jpg" alt="Deep Waters" class="rafting-img">
+                <figcaption>Deep Waters</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting4.jpg" alt="Rapid Waters" class="rafting-img">
+                <figcaption>Rapid Waters</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting5.jpg" alt="Green Path Waters" class="rafting-img">
+                <figcaption>Green Path Waters</figcaption>
+            </figure>
         </div>
     </section>
 </main>
-
 <footer>
     <p>© 2024, Rafting Adventures, Santiago Meneses</p>
     <nav class="sociallinks">
