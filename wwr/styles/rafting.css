@@ -100,29 +100,29 @@ nav a:hover {
 
 .hero article {
     position: absolute;
-    top: 50%; /* Lowering the image and text further down */
+    top: 50%; 
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 30px; /* Add extra space below the image */
+    margin-top: 30px; 
     display: flex;
-    align-items: center; /* Centers the content vertically */
-    justify-content: center; /* Centers the content horizontally */
-    flex-direction: column; /* Stack the image and text vertically */
-    text-align: center; /* Ensure the text is centered */
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    text-align: center; 
 }
 
 .hero .client-image {
-    width: 300px; /* Increase the image size */
+    width: 300px; 
     height: auto;
     border-radius: 8px;
-    margin-bottom: 20px; /* Adds space between the image and the text */
+    margin-bottom: 20px;
 }
 
 .hero article p {
-    font-size: 1.2rem; /* Slightly larger font for better readability */
-    color: white; /* Ensures the text is white for contrast */
+    font-size: 1.2rem; 
+    color: white; 
     line-height: 1.6;
-    margin-top: 20px; /* Adds space between the text and the image */
+    margin-top: 20px;
 }
 .history-section {
     display: grid;
