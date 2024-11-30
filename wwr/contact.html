@@ -75,16 +75,23 @@
 
             <label for="purpose" id="purpose-label">Purpose of Message:</label>
             <div class="radio-group" id="purpose-group">
-                <label><input type="radio" name="purpose" value="General Inquiry" id="general-inquiry" required> General Inquiry</label>
-                <label><input type="radio" name="purpose" value="Reservation Question" id="reservation-question" required> Reservation Question</label>
-                <label><input type="radio" name="purpose" value="Website Suggestion" id="website-suggestion" required> Website Suggestion</label>
+                <label for="general-inquiry" id="general-inquiry-label">General Inquiry</label>
+                <input type="radio" name="purpose" value="General Inquiry" id="general-inquiry" required>
+
+                <label for="reservation-question" id="reservation-question-label">Reservation Question</label>
+                <input type="radio" name="purpose" value="Reservation Question" id="reservation-question" required>
+
+                <label for="website-suggestion" id="website-suggestion-label">Website Suggestion</label>
+                <input type="radio" name="purpose" value="Website Suggestion" id="website-suggestion" required>
             </div>
 
             <label for="message" id="message-label">Your Message:</label>
             <textarea id="message" name="message" required></textarea>
 
-            <div class="checkbox-group" id="checkbox-group">
-                <label><input type="checkbox" name="subscribe" value="Yes" id="subscribe-checkbox"> Please subscribe me to the monthly newsletter</label>
+            <div class="checkbox-group">
+                <label for="subscribe" id="subscribe-label">
+                    <input type="checkbox" name="subscribe" id="subscribe" value="Yes"> Please subscribe me to the monthly newsletter
+                </label>
             </div>
 
             <button type="submit" class="submit-btn" id="submit-btn">Submit</button>
