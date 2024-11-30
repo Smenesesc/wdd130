@@ -35,7 +35,7 @@ h2 {
 }
 nav a {
     text-decoration: none;
-    color: white;  /* This ensures the text is white */
+    color: white; 
     padding: 10px 15px;
 }
 
