@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #0B3954;
+    --primary-color: #152a55;
     --secondary-color: #989572;
     --accent1-color: #9CFFD9;
     --accent2-color: #5BC0EB;
@@ -33,7 +33,16 @@ h2 {
     font-size: 2rem;
     margin-bottom: 10px;
 }
+nav a {
+    text-decoration: none;
+    color: white;  /* This ensures the text is white */
+    padding: 10px 15px;
+}
 
+nav a:hover {
+    background-color: var(--accent1-color);
+    border-radius: 5px;
+}
 .hero {
     position: relative;
     background-image: url('images/hero.webp');
