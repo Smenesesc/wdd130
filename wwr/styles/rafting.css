@@ -33,6 +33,7 @@ h2 {
     font-size: 2rem;
     margin-bottom: 10px;
 }
+
 nav a {
     text-decoration: none;
     color: white; 
@@ -43,6 +44,7 @@ nav a:hover {
     background-color: var(--accent1-color);
     border-radius: 5px;
 }
+
 .hero {
     position: relative;
     background-image: url('images/hero.webp');
@@ -82,73 +84,13 @@ nav a:hover {
     margin-left: 20px;
 }
 
-.history-section {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    gap: 20px;
-    padding: 20px;
-    align-items: center;
-    justify-items: center;
-}
-
-.left-text, .right-text {
-    padding: 20px;
-}
-
-.center-image img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 8px;
-}
-
-section h2 {
-    color: var(--accent1-color);
-    font-size: 2rem;
-    margin-top: 40px;
-    margin-bottom: 10px;
-}
-
-section p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-.rafting-gallery {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    padding: 20px 0;
-}
-
-.rafting-item {
-    width: 18%;
-    text-align: center;
-    margin: 0;
-}
-
-.rafting-img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.rafting-item figcaption {
-    margin-top: 10px;
-    font-weight: bold;
-    color: var(--accent1-color);
-}
-
 footer {
     background-color: var(--accent2-color);
-    color: white;
+    color: black;  /* Changed text color to black */
     padding: 20px;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: relative;
 }
@@ -161,18 +103,12 @@ footer .footer-content {
     margin: 0 auto;
 }
 
-footer p {
-    text-align: center;
-    color: black;
-    margin: 0;
-}
-
 footer .sociallinks {
-    display: flex;
-    gap: 15px;
     position: absolute;
     bottom: 20px;
     right: 20px;
+    display: flex;
+    gap: 15px;
 }
 
 footer .sociallinks a {
@@ -182,4 +118,63 @@ footer .sociallinks a {
 footer .sociallinks img {
     width: 30px;
     height: 30px;
+}
+
+.contact-info, .employee-profiles, .contact-form {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact-details, .google-map, .employee, .employee-photo {
+    margin-bottom: 20px;
+}
+
+/* Employee photo size adjustments */
+.employee-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.employee {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.submit-btn {
+    background-color: var(--accent1-color);
+    color: black;  /* Changed text color to black */
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: var(--accent2-color);
+}
+
+/* Style for the View Wireframe link */
+footer p a {
+    color: black;  /* Changed text color to black */
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;  /* Add underline effect on hover */
 }
