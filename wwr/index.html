@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Rafting Adventures</title>
+    <meta name="description" content="Experience the thrill of rafting with Rafting Adventures. Explore our exciting trips, sign up for our newsletter, and join the adventure.">
+    <meta name="author" content="Santiago Meneses">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+
+<header class="header-grid">
+    <img src="images/logo.jpg" alt="Rafting Adventures Logo" width="100">
+    <h1 class="white-text">Rafting Adventures</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Hero Section -->
+    <div class="hero">
+        <img src="images/hero-home.jpg" alt="Rafting Adventure" class="hero-image">
+        <div class="hero-content">
+            <h1 class="white-text">Welcome to Rafting Adventures</h1>
+            <p class="white-text">Join us for an unforgettable rafting experience in the wildest rivers!</p>
+        </div>
+    </div>
+
+    <!-- Newsletter Sign-Up Section -->
+    <section class="newsletter-signup">
+        <h2>Stay Updated!</h2>
+        <p>Sign up for our newsletter to get the latest rafting trips and offers.</p>
+        <form action="submit_newsletter.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit" class="submit-btn">Subscribe Now</button>
+        </form>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <h2>Ready for Adventure?</h2>
+        <p>Check out our exciting rafting trips. Choose your adventure today!</p>
+        <a href="trips.html" class="cta-btn">Explore Our Trips</a>
+    </section>
+
+    <!-- Grid Layout Section -->
+    <section class="about-section">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="images/rafting1.jpg" alt="Splashy Waters" class="grid-image">
+                <p class="grid-text">Experience the thrill of navigating through splashy waters and breathtaking scenery.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/rafting2.jpg" alt="Rocky Rapids" class="grid-image">
+                <p class="grid-text">Conquer rocky rapids with our experienced guides who ensure your safety and excitement.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p>© 2024, Rafting Adventures, Santiago Meneses</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com" aria-label="Facebook">
+                <img src="images/facebook.webp" alt="Facebook Logo">
+            </a>
+            <a href="https://twitter.com" aria-label="Twitter">
+                <img src="images/twitter.webp" alt="Twitter Logo">
+            </a>
+            <a href="https://instagram.com" aria-label="Instagram">
+                <img src="images/instagram.webp" alt="Instagram Logo">
+            </a>
+        </nav>
+    </div>
+</footer>
+
+</body>
+</html>
